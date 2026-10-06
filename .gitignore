@@ -1,0 +1,36 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local recovery work, recordings and private diagnostic evidence are never public.
+/recovery/
+/RECOVERY.md
+/lanprobe/evidence/
+**/evidence/
+*.apk
+*.aab
+*.zip
+*.tar
+*.wav
+*.pcm
+*.mp4
+*.hevc
+*.aac
+*.bin
+!lanprobe/src/androidTest/assets/test-tone.aac
+
+# Credentials and signing material stay on the developer's computer.
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+key.properties
+keystore.properties
+secrets.properties
